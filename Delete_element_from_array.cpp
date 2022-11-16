@@ -8,17 +8,17 @@ int main()
 
         int arr[50], size, i, del, count=0;
 
-        cout<<"Enter array size( Max:50 ) :: ";
+        cout<<"Enter array size( Max:50 )  ";
         cin>>size;
-        cout<<"\nEnter array elements :: \n";
+        cout<<"\nEnter array elements  \n";
 
         for(i=0; i<size; i++)
         {
-            cout<<"\nEnter arr["<<i<<"] Element :: ";
+            cout<<"\nEnter arr["<<i<<"] Element ";
                 cin>>arr[i];
         }
 
-        cout<<"\nEnter element to be delete :: ";
+        cout<<"\nEnter element to be delete ";
         cin>>del;
 
         for(i=0; i<size; i++)
@@ -40,13 +40,12 @@ int main()
         else
         {
                 cout<<"\nElement deleted successfully..!!\n";
-                cout<<"\nNow the new array is ::\n";
+                cout<<"\nNow the new array is \n";
                 for(i=0; i<(size-1); i++)
                 {
                         cout<<arr[i]<<" ";
                 }
         }
-    cout<<"\n";
-
+    
         return 0;
 }
