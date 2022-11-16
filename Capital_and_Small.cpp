@@ -11,7 +11,7 @@ int main()
 
     int i;
     char a[30];
-    cout<<"\nEnter any string :: ";
+    cout<<"\nEnter any string : ";
     gets(a);
 
     int len = strlen(a);
@@ -38,7 +38,7 @@ int main()
             }
         }
     }
-    cout<<"\nUpdated New String is :: "<<a<<"\n";
+    cout<<"\nUpdated New String is : "<<a<<"\n";
 
     return 0;
 }
