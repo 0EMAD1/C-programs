@@ -1,6 +1,9 @@
 /* A Milkman serves milk in packaged bottles of varied sizes. The possible size of the bottles are {1, 5, 7 and 10} litres. He wants to supply the desired quantity using as fewer bottles as possible irrespective of the size. 
 Your objective is to help him find the minimum number of bottles required to supply the given demand for milk.*/
-
+INPUT- 
+ The first lihe contains the value of N by which the number of inputs can be given.
+ The second line consists  , the Quantuty of milk ordered.
+ 
 code -
 
 #include <stdio.h>
